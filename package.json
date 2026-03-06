@@ -1,8 +1,11 @@
 {
   "name": "ai-system-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "AI-powered backend for eco-friendly product proposals and impact reporting",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
